@@ -1,6 +1,13 @@
 
 <%-# debugging line -%>
 <%= "#{@posts.size.to_s} active posts found." %>
-<%= @posts.each do |post| %>
-  <%= image_tag post.image.url, class: "img -mg-fluid" %>
-<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <%= @posts.each do |post| %>
+        <%= image_tag post.image.url, class: "img -mg-fluid" %>
+      <% end %>
+    </div>
+  </div>
+</div>
