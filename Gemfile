@@ -12,7 +12,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'pg', '~> 0.18.2'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 
 #great for user auth (sign in, sign out, password reset)
 gem 'devise'
